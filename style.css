@@ -1,0 +1,32 @@
+main{
+	width:900px;
+	margin: auto;
+	border-style: double;
+	padding: 20px;
+}
+
+h1, header, #bas{
+	text-align:center;
+}
+
+nav ul li{
+	list-style-type: none;
+	display: inline;
+	padding-right: 60px;
+}
+#bas {
+	font-size:small;
+}
+#texte{
+	float:right;
+	
+}
+
+#photo{
+	float:left;
+}
+
+footer{
+
+clear:both;
+}

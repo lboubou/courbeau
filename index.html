@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="style.css">
+	<title>Exercice</title>
+</head>
+<body>
+	<main>
+		<header id="accueil">
+			<h1>The Offspring</h1>
+			<nav>
+				<ul>
+					<li>Accueil</li>
+					<li><a href="#groupe">Le groupe</a></li>
+					<li><a href="#style">Style et Influences</a></li>
+					<li><a href="#store">Boutique</a></li>
+					<li><a href="#contact">Contact</a></li>
+				</ul>
+
+			</nav>
+		</header>
+		<content>
+			<article>
+				<header>
+					<h2>Présentation</h2>
+					<p>The Offspring est un groupe de punk rock américain formé en 1984 à Huntington Beach, en Californie, par Dexter Holland et Greg Kriesel.</p>
+				</header>
+				<center><img src="groupe.jpg" alt="photo du groupe"/></center>
+				<section>					
+					<h3 id="groupe">Le groupe</h3>
+					<p> The Offspring a été considéré par la presse comme incarnant le renouveau du punk rock aux États-Unis dans le milieu des années 19904. Ils ont réalisé huit albums, deux compilations, quatre EP, trois DVD et une vingtaine de singles. Chaque album, depuis la sortie d'Epitaph Records Smash s'est vendu à plus d'un million d'exemplaires, excepté Rise and Fall, Rage and Grace dont seulement 800 000 copies ont été vendues.</p>
+
+					<p>The Offspring est composé de quatre membres : Dexter Holland, au chant et à la guitare rythmique ; Noodles, de son vrai nom Kevin Wasserman, à la lead guitar et au chant ; Greg Kriesel à la basse et au chant ; enfin Ron Welty à la batterie jusqu'en 2003, puis, à partir de 2007 Pete Parada, l'ancien batteur des groupes Face to Face et Saves the Day.</p>
+
+					<h3 id="style">Style et Influences musicales</h3>
+					<p>En général, leurs chansons tournent dans les styles punk, pop, rock, ou même rock alternatif. Les membres du groupe se sont essayés aux bruitages informatiques, qui donnent des sons assez originaux, comme les chansons Hit That, Original Prankster ou Special Delivery qui font surtout penser aux sons des jeux vidéo.</p>
+
+					<p>Certains albums de The Offspring contiennent au début une introduction. Il y a Time to Relax (Smash, 25 secondes), Disclaimer (Ixnay on the Hombre, 44 secondes), Welcome (Americana, dix secondes) et Intro (Conspiracy of One, cinq secondes). Les autres albums n'ont pas d'introduction : The Offspring, Ignition, Splinter et Rise and Fall, Rage and Grace.</p>
+
+					<p>Leurs albums ont également une particularité, la dernière plage contient deux titres (le second est caché après quelques minutes de silence) sauf pour Conspiracy of One ou le dernier morceau Huck It constitue une plage à part entière bien que le titre ne soit pas mentionné sur la pochette.</p>
+					<hr>
+				</section>
+				<footer>
+					<h4>Titre du footer de l’article</h4>             
+				</footer>
+			</article>
+			<aside>
+				<h2>Discographie</h2>
+				<ul>
+					<li>1989 - The Offspring</li>
+					<li>1992 - Ignition</li>
+					<li>1994 - Smash</li>
+					<li>1997 - Ixnay on the Hombre</li>
+					<li>1998 - Americana</li>
+					<li>2000 - Conspiracy of One</li>
+					<li>2003 - Splinter</li>
+					<li>2008 - Rise And Fall, Rage And Grace</li>
+					<li>2012 - Days Go By</li>
+				</ul>
+				<hr>
+			</aside>
+			<article id="tshirt">
+				<header>
+					<h2>T-shirt The Offspring</h2> 
+					Ladies Skull Art Muscle Tank				
+				</header>
+				<section>
+					<p id="photo"><img src="tshirt.png" alt="tshirt the offspring"/></p>
+
+					<p id="texte">
+						<p>$ 25.00</p>
+						<p id="des">
+							Ladies black muscle tank featuring skull art design.</br>
+						</p>
+					</p>
+					<form action="choix" method="POST">
+						Votre taille : 
+						<select id="taille">
+						   <option value="valeur1">S</option>
+						   <option value="valeur2">M</option>
+						   <option value="valeur3">L</option>
+						   <option value="valeur4">XL</option>
+						</select></br>
+						Quantité : 
+						<select id="quantite">
+						   <option value="valeur1">1</option>
+						   <option value="valeur2">2</option>
+						   <option value="valeur3">3</option>
+						   <option value="valeur4">4</option>
+						</select> 
+						</br>
+						<input type="submit" value="Ajouter au panier"/>
+						<input type="submit" value="Ajouter à la liste d'envie"/>					
+					</form>
+
+				</section>
+				<footer>					
+				</footer>
+			</article>
+		</content>
+		<footer id="contact">
+				<h2>Contact</h2>
+			<address>
+				<h3>Ecrivez-nous</h3>
+				<form action="#" method="POST">
+					<p><label for="champNom">Nom : </label><input type="text" id="champNom" name="champNom" placeholder="Votre nom" aria-required></p>
+					<p><label for="champPrenom">Prénom : </label><input type="text" id="champPrenom" name="champPrenom" placeholder="Votre prénom" aria-required></p>
+					<p><label for="champEmail">Email : </label><input type="email" id="champEmail" name="champEmail" placeholder="Votre email" aria-required><br/></br>
+					<textarea></textarea>
+					<p><input type="submit" id="champSubmit" name="champSubmit" value="Envoyez"></p>
+				</form>
+			</address>			
+			<nav>
+				<center>
+				<ul>
+					<li><a href="#accueil">Accueil</a></li>
+					<li><a href="#groupe">Le groupe</a></li>
+					<li><a href="#style">Style et Influences</a></li>
+					<li><a href="#store">Boutique</a></li>
+					<li><a href="#contact">Contact</a></li>
+				</ul>
+				</center>
+			</nav>
+				 <p id="bas">Copyright© 2015 | Réalisé par Léa BOUISSIERE | THE OFFSPRING </p>
+		</footer>
+	</main>
+</body>
+</html>
