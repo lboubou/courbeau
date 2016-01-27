@@ -1,32 +1,29 @@
-main{
-	width:900px;
-	margin: auto;
-	border-style: double;
-	padding: 20px;
+main {
+  width: 900px;
+  margin: auto;
+  border-style: double;
+  padding: 20px;
 }
-
-h1, header, #bas{
-	text-align:center;
+h1,
+header,
+#bas {
+  text-align: center;
 }
-
-nav ul li{
-	list-style-type: none;
-	display: inline;
-	padding-right: 60px;
+nav ul li {
+  list-style-type: none;
+  display: inline;
+  padding-right: 60px;
 }
 #bas {
-	font-size:small;
+  font-size: small;
 }
-#texte{
-	float:right;
-	
+#texte {
+  float: right;
 }
-
-#photo{
-	float:left;
+#photo {
+  float: left;
 }
-
-footer{
-
-clear:both;
+footer {
+  clear: both;
 }
+/*# sourceMappingURL=style.css.map */
